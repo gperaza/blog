@@ -1,0 +1,63 @@
+#+TITLE: My first post
+#+SUBTITLE: Posted: <2016-04-04 Mon>
+#+SUBTITLE: (/Last edited: {{{modification-time(%d %b %Y %H:%M)}}}/ )
+#+LANGUAGE: en
+
+* First Post                                         :mytag:
+Yahooo, a first post.[fn:1]
+
+An inline footnote [fn::An inline footnote.]
+** A code sample
+#+BEGIN_SRC python :exports code
+print("Hello world")
+#+END_SRC
+
+Other code
+#+BEGIN_SRC emacs-lisp :exports code
+(use-package htmlize
+  :ensure t)
+(add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ca" 'org-agenda)
+;; (global-font-lock-mode 1)  Not needed in recent emacsen
+#+END_SRC
+** An equation
+$$
+x= \sqrt{y^{2}}
+$$
+*** This is level 3 heading
+Here I put a footnote [fn:2]
+
+* TODO [#B] This is a todo.
+* DONE [#A] This is done.
+
+* a verse
+
+* A quote
+#+BEGIN_QUOTE
+This is a quote. A very long long long long long long long long long
+long long long.  A very long long long long long long long long long
+long long long.
+
+                                   ---Me again.
+#+END_QUOTE
+
+* [[https://google.com][A headline link]]
+ddadsa
+dadas
+
+* A headline link (not)
+dadsadsa
+dadsadsa
+
+* Footnotes
+
+[fn:1] This is another footnote.
+
+[fn:2] This is the footnote.
+
+* COMMENT local variables for this file
+# Local Variables:
+# eval: (setq system-time-locale "es")
+# ispell-local-dictionary: "en"
+# End:

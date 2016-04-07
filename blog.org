@@ -1,0 +1,27 @@
+#+TITLE: Blog
+#+SUBTITLE: By Gonzalo G. Peraza Mues
+#+LANGUAGE: en
+
+* TODO Blogging with org mode to github pages
+
+
+* DONE A dummy post
+CLOSED: [2016-04-05 Tue 10:21]
+:DATES:
+Posted: <2016-04-05 Tue>
+# (/Edited: /)
+:END:
+A dummy post to test spacing.
+
+
+* DONE [[file:posts/first.org][My first post]]
+CLOSED: [2016-04-05 Tue 09:33]
+An example post to test export and css settings.
+
+
+* COMMENT local variables for this file
+# Local Variables:
+# eval: (setq system-time-locale "C")
+# eval: (setq org-link-file-path-type 'relative)
+# ispell-local-dictionary: "en"
+# End:

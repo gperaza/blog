@@ -1,0 +1,9 @@
+#+TITLE: Research
+
+Here's a link to my [[https://scholar.google.com][Google Scholar]] profile: [[https://scholar.google.com.mx/citations?user=nguMmzcAAAAJ&hl=en&oi=ao][Gonzalo G. Peraza Mues]].
+
+I also include here a list of publications including those not
+indexed.
+
+* Refereed publications
+#+INCLUDE: mypubs.in
